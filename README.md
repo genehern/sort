@@ -2,6 +2,7 @@
 1. 1. The project can be used to allocate students from each class into a selected course based on their choice (rankings).
    2. Their choices are collated via google forms, which in turns gives us a google sheets
    3.  Allocations is based on first come first serve basis as each course can only accomodate up to 30 students.
+   4.  This programme is extremely practical. It can also be used in other scenarios such as allocating students to their desried Co-Curiicular Activites
 
 # Programming logic
 2. 1. Create an object "student", which containts important information such as his name, class, and selected choices.
@@ -14,9 +15,14 @@
 
 # How to use the programme
 3. 1. Download the google sheets as a csv file
-   2. Name the csv file as "data1.csv"
-   3. Follow the commands in the terminal. Be sure to key in the EXACT wordings as the google sheets.
-   5. Run the file!
+   2. Name the csv file as "data.csv"
+   3. Follow the commands in the terminal.
+   4. In line 3, update the number of choices given to the students
+   5. In line 8, update the key in the dictionary to the same wordings in the google sheets (how the students express their choices)
+   6. In line 9, update the key in the dictionary to the same wordings in the google sheets (how the students express their class)
+   7. In lines 15 and 18, update the number of choices given to students
+   8. In line 40 make sure that the values taken in correspond to the csv. If not, update the order.
+   9. Run the programme!
 
 
       
