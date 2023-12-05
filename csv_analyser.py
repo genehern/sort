@@ -1,7 +1,10 @@
 import csv
 
-number_of_choices = 6
-counterdict = {0 : 0, 1 : 0 , 2 : 0, 3 : 0, 4 : 0, 5 : 0} #the key represents the column number
+number_of_choices = int(input("Number of choices given to students (Give a number): "))
+counterdict = {} #dictionary to count number of students in each course
+for i in range (number_of_choices):
+    counterdict[i] = 0
+    
 word_to_number = {'1st Choice': 0, '2nd Choice' : 1, '3rd Choice': 2, '4th Choice' : 3, '5th Choice' : 4, '6th Choice' : 5}
 assign_class_tonum = { '4B' : 0 , '4C' : 1, '4I' : 2, "4K" : 3, '4M' : 4, '4P' : 5, '4R' : 6}
 
